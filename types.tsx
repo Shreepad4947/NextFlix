@@ -28,3 +28,4 @@ export type SearchParamList = {
 export type DownloadParamList = {
   DownloadScreen: undefined;
 };
+
