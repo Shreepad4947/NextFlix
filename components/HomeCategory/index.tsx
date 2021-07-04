@@ -30,6 +30,7 @@ const{category}=props;
      <Image style={styles.image} source={{uri:item.poster}}/>
    )}
    horizontal
+   showsHorizontalScrollIndicator={false}
    />
 
     </>

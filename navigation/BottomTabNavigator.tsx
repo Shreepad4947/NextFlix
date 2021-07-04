@@ -15,6 +15,7 @@ import TabTwoScreen from '../screens/SearchScreen';
 import SearchScreen from '../screens/SearchScreen';
 import DownloadScreen from '../screens/DownloadScreen';
 import LibraryScreen from '../screens/LibraryScreen';
+import MovieDetailScreen from '../screens/MovieDetailScreen';
 import { BottomTabParamList,LibraryParamList, HomeParamList, SearchParamList,DownloadParamList } from '../types';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
@@ -70,9 +71,14 @@ function TabOneNavigator() {
   return (
     <HomeStack.Navigator>
       <HomeStack.Screen
+        name="MovieDetailScreen"
+        component={MovieDetailScreen}
+        options={{title:'' }}
+      />
+      <HomeStack.Screen
         name="HomeScreen"
         component={HomeScreen}
-        options={{ headerShown: false }}
+        options={{ headerShown: false  }}
       />
     </HomeStack.Navigator>
   );
