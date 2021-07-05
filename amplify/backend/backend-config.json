@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "nextflix0a5077e8": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

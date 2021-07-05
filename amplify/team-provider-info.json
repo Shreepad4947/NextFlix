@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextflix-dev-225520-authRole",
+      "UnauthRoleArn": "arn:aws:iam::057709833287:role/amplify-nextflix-dev-225520-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::057709833287:role/amplify-nextflix-dev-225520-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-nextflix-dev-225520-deployment",
+      "UnauthRoleName": "amplify-nextflix-dev-225520-unauthRole",
+      "StackName": "amplify-nextflix-dev-225520",
+      "StackId": "arn:aws:cloudformation:us-east-2:057709833287:stack/amplify-nextflix-dev-225520/a6a1eac0-dd55-11eb-831c-025c5e287830",
+      "AmplifyAppId": "d25sdbf0fk0j2m"
+    },
+    "categories": {
+      "auth": {
+        "nextflix0a5077e8": {}
+      }
+    }
+  }
+}
