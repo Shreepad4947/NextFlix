@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nextflix",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnextflix0a5077e8",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

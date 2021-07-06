@@ -3,7 +3,8 @@
     "name": "NextFlix",
     "slug": "NextFlix",
     "version": "1.0.0",
-    // "orientation": "default",
+    "orientation": "default",
+    "sdkVersion":"42.0.0",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "dark",
@@ -18,10 +19,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
+    // "ios": {
+    //   "supportsTablet": true,
+    //   "bundleIdentifier": "com.yourcompany.yourappname",
+    //  "buildNumber": "1.0.0"
+    // },
     "android": {
+      "package": "com.yourcompany.yourappname",
+     "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"

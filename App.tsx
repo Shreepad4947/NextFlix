@@ -18,6 +18,7 @@ Amplify.configure(config);
   const colorScheme = useColorScheme();
 
   if (!isLoadingComplete) {
+    
     return null;
   } else {
     return (
